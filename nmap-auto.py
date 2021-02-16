@@ -33,7 +33,7 @@ ports = input("Please Enter Your Desired Port Range ex. (21-443)\n")
 
 #Checking if user actually entered ports
 
-if len(ports) != 0 :
+if len(ports) == 0 :
     print("Please enter a value for ports!!!")
     exit()
 
