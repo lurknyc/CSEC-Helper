@@ -1,0 +1,9 @@
+import argparse
+import sys
+import socket
+import requests
+import subprocess
+import signal
+import os
+import dns.resolver
+import dns.reversename
