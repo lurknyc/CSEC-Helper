@@ -21,7 +21,7 @@ IP = input("Please Enter the Machine IP:\n")
 
 #Checking if the IP is Valid
 
-if len(IP) > 24 :
+if len(IP) > 12 :
     print("Please Enter A Valid IP!")
     exit()
 
